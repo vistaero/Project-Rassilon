@@ -164,7 +164,8 @@ public class RassilonUtils {
             "&c&oI hope the ears are a bit less conspicuous this time.", //War Doctor
             "&c&oAbsolutely fantastic. And you know what? So was I!", //Ninth Doctor
             "&c&oI don't want to go.", //Tenth Doctor
-            "&c&oI will always remember when the Doctor was me." //Eleventh Doctor
+            "&c&oI will always remember when the Doctor was me.", //Eleventh Doctor
+            "&c&oLaugh hard, Run fast, Be kind. Doctor, I let you go..." //Twelfth Doctor
     };
 
     /**
