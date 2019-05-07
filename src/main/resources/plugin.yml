@@ -1,6 +1,7 @@
 name: ProjectRassilon
 main: net.pekkit.projectrassilon.ProjectRassilon
 version: '${pom.version}'
+api-version: 1.14
 description: Become a Time Lord and regenerate!
 author: Doctor Squawk
 website: http://www.spigotmc.org/resources/project-rassilon.2051/
