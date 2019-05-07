@@ -175,6 +175,10 @@ public class RegenCommandExecutor implements CommandExecutor {
             MessageSender.sendPrefixMsg(player, "&cYou cannot regenerate in creative mode!");
             return;
         }
+        if (player.getGameMode().equals(GameMode.SPECTATOR)) {
+            MessageSender.sendPrefixMsg(player, "&cYou cannot regenerate in spectator mode!");
+            return;
+        }
         if (player.getLocation().getY() <= 0) { //In the void
             MessageSender.sendPrefixMsg(player, "&cYou cannot regenerate in the void!");
             return;
@@ -259,6 +263,10 @@ public class RegenCommandExecutor implements CommandExecutor {
         }
         if (player.getGameMode().equals(GameMode.CREATIVE)) {
             MessageSender.sendPrefixMsg(player, "&cYou cannot regenerate in creative mode!");
+            return;
+        }
+        if (player.getGameMode().equals(GameMode.SPECTATOR)) {
+            MessageSender.sendPrefixMsg(player, "&cYou cannot regenerate in spectator mode!");
             return;
         }
         if (player.getLocation().getY() <= 0) { //In the void
